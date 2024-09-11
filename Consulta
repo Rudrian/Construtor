@@ -1,0 +1,53 @@
+package AULA11o09;
+
+public class Consulta {
+    private String data;
+    private String nomeP;
+    private String nomeD;
+
+    public Consulta() {
+        this.data = "Data Desconhecida";
+        this.nomeP = "Paciente Desconhecido";
+        this.nomeD = "Doutor Desconhecido";
+    }
+    
+    public Consulta(String data, String nomeP, String nomeD) {
+        this.data = data;
+        this.nomeP = nomeP;
+        this.nomeD = nomeD;
+    }
+
+    public Consulta(String nomeD, String nomeP) {
+        this.nomeP = nomeP;
+        this.nomeD = nomeD;
+    }
+    public void Consulta(String nomeP, String data) {
+        this.nomeP = nomeP;
+        this.data = data;
+    }
+
+    public String getData() {
+        return this.data;
+    }
+
+    public String getNomeP() {
+        return this.nomeP;
+    }
+
+    public String getNomeD() {
+        return this.nomeD;
+    }
+
+    public void setData(String data) {
+        this.data = data;
+    }
+
+    public void setNomeP(String nomeP) {
+        this.nomeP = nomeP;
+    }
+
+    public void setNomeD(String nomeD) {
+        this.nomeD = nomeD;
+    }
+}
+
