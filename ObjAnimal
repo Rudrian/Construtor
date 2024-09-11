@@ -1,0 +1,15 @@
+package AULA11o09;
+
+public class ObjAnimal {
+
+    public static void main(String[] args) {
+      
+       Animal tigre = new Animal(2.8f, "Laranja com listras pretas");
+       Animal cachorro = new Animal(0.5f, "Marrom");
+       Animal gato = new Animal(1.0f, "Branco");
+       
+       System.out.println("Tigre - Tamanho: " + tigre.getTamanho() + "m, Cor: " + tigre.getCor());
+       System.out.println("Cachorro - Tamanho: " + cachorro.getTamanho() + "m, Cor: " + cachorro.getCor());
+       System.out.println("Gato - Tamanho: " + gato.getTamanho() + "m, Cor: " + gato.getCor());
+    }
+}
