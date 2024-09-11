@@ -1,0 +1,37 @@
+package AULA11o09;
+
+public class Animal {
+    private float tamanho;
+    private String cor;
+
+    public Animal() {
+        this.tamanho = 0.0f;
+        this.cor = "Indefinido";
+    }
+
+    public Animal(float tamanho, String cor) {
+        this.tamanho = tamanho;
+        this.cor = cor;
+    }
+
+    public Animal(Animal outroAnimal) {
+        this.tamanho = outroAnimal.tamanho;
+        this.cor = outroAnimal.cor;
+    }
+
+    public float getTamanho() {
+        return this.tamanho;
+    }
+
+    public void setTamanho(float tamanho) {
+        this.tamanho = tamanho;
+    }
+
+    public String getCor() {
+        return this.cor;
+    }
+
+    public void setCor(String cor) {
+        this.cor = cor;
+    }
+}
