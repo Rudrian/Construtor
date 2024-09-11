@@ -1,0 +1,17 @@
+package AULA11o09;
+
+public class ObjConsulta {
+
+    public static void main(String[] args) {
+      
+       Consulta consulta1 = new Consulta("Doutor Joao, Paciente Cleison, Data 20/02/2025", null, null);
+       Consulta consulta2 = new Consulta("Paciente Cleison, Data 20/02/2025", null);
+       Consulta consulta3 = new Consulta("Doutor Joao, Paciente CLeison", null);
+       
+       System.out.println("O" + consulta1.getNomeD() +"ira atender o paciente: "+consulta1.getNomeP() + "No dia :"+consulta1.getData());
+       System.out.println("ira atender o paciente: "+consulta2.getNomeP() + "No dia :"+consulta2.getData());
+       System.out.println("O" + consulta3.getNomeD() +"ira atender o paciente: "+consulta3.getNomeP());
+       
+
+    }
+}
