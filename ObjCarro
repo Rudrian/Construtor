@@ -1,0 +1,16 @@
+package AULA11o09;
+
+public class ObjCarro {
+
+    public static void main(String[] args) {
+      
+       Carro premio = new Carro("RUD 2008", 821390);
+       Carro uno = new Carro("RUD 2008");
+       Carro omega = new Carro(821390);
+       
+       System.out.println("Placa do premio : " + premio.getPlaca() + "Numero do Chassi : " + premio.getNumChassi());
+       System.out.println("Placa do uno : " + uno.getPlaca());
+       System.out.println("Numero do Chassi do omega " + omega.getNumChassi());
+       
+    }
+}
