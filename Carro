@@ -1,0 +1,27 @@
+package AULA11o09;
+
+public class Carro {
+    private String placa;
+    private int numChassi;
+
+    public Carro() {
+        this.placa = "Desconhecida"; 
+        this.numChassi = 0; 
+    }
+
+    public Carro(String placa) {
+        this.placa = placa;  
+        this.numChassi = 0;  
+    }
+
+
+    public Carro(int numChassi) {
+        this.numChassi = numChassi;  
+        this.placa = "Desconhecida"; 
+    }
+
+   
+    public Carro(String placa, int numChassi) {
+        this.placa = placa;
+        this.numChassi = numChassi;
+    }
